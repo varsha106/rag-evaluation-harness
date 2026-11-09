@@ -1,0 +1,9 @@
+# Core demonstration
+# The default local backend uses only the Python standard library.
+
+# Optional framework backends
+ragas>=0.2.0
+deepeval>=2.0.0
+datasets>=2.19.0
+langchain-community>=0.2.0
+sentence-transformers>=2.7.0
