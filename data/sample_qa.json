@@ -1,0 +1,46 @@
+{
+  "qa_pairs": [
+    {
+      "id": "q01-hybrid-retrieval",
+      "question": "How does hybrid retrieval combine dense vector search and BM25?",
+      "reference_answer": "Hybrid retrieval combines dense vector search with sparse BM25 keyword search and can merge their rankings with reciprocal rank fusion.",
+      "response": "Hybrid retrieval combines dense vector search with BM25 keyword search and can merge the rankings with reciprocal rank fusion.",
+      "relevant_doc_ids": ["hybrid-retrieval"]
+    },
+    {
+      "id": "q02-faithfulness",
+      "question": "What does faithfulness measure in a RAG answer?",
+      "reference_answer": "Faithfulness measures whether factual claims in the generated answer are supported by the retrieved context.",
+      "response": "Faithfulness checks whether each factual claim in the answer is supported by the retrieved context.",
+      "relevant_doc_ids": ["faithfulness"]
+    },
+    {
+      "id": "q03-context-recall",
+      "question": "What does context recall measure?",
+      "reference_answer": "Context recall measures how completely the retrieved context covers the information needed by the reference answer.",
+      "response": "Context recall measures how completely the retrieved context covers the information in the reference answer.",
+      "relevant_doc_ids": ["context-metrics"]
+    },
+    {
+      "id": "q04-answer-relevancy",
+      "question": "What does answer relevancy focus on?",
+      "reference_answer": "Answer relevancy measures whether a response addresses the user's question, focusing on relevance rather than factual correctness alone.",
+      "response": "Answer relevancy measures whether the response addresses the question rather than whether every fact is correct.",
+      "relevant_doc_ids": ["answer-relevancy"]
+    },
+    {
+      "id": "q05-deepeval-purpose",
+      "question": "What can DeepEval be used to evaluate?",
+      "reference_answer": "DeepEval can evaluate LLM applications using test cases and metrics such as faithfulness, answer relevancy, contextual precision, and contextual recall.",
+      "response": "DeepEval is only a load-testing tool for measuring API latency.",
+      "relevant_doc_ids": ["deepeval-overview"]
+    },
+    {
+      "id": "q06-evaluation-dataset",
+      "question": "What should a useful RAG evaluation dataset contain?",
+      "reference_answer": "A useful evaluation dataset contains representative questions, reference answers, and document relevance labels, and it should be versioned for comparison.",
+      "response": "A useful evaluation set contains representative questions, reference answers, and document relevance labels, and it should be versioned as the system changes.",
+      "relevant_doc_ids": ["evaluation-data"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+id,question,reference_answer,response,relevant_doc_ids
+q01-hybrid-retrieval,How does hybrid retrieval combine dense vector search and BM25?,Hybrid retrieval combines dense vector search with sparse BM25 keyword search and can merge their rankings with reciprocal rank fusion.,Hybrid retrieval combines dense vector search with BM25 keyword search and can merge the rankings with reciprocal rank fusion.,hybrid-retrieval
+q02-faithfulness,What does faithfulness measure in a RAG answer?,Faithfulness measures whether factual claims in the generated answer are supported by the retrieved context.,Faithfulness checks whether each factual claim in the answer is supported by the retrieved context.,faithfulness
+q05-deepeval-purpose,What can DeepEval be used to evaluate?,DeepEval can evaluate LLM applications using test cases and metrics such as faithfulness and answer relevancy.,DeepEval is only a load-testing tool for measuring API latency.,deepeval-overview
